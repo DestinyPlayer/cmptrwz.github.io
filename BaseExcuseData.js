@@ -655,6 +655,7 @@ basetypes.speechtype = [
 	"in Klingon",
 	"in meaningless gibberish",
 	"in hissing noises",
+	"in a death metal growl",
 ];
 basetypes.beatvalues = [
 	"at an eating contest",
@@ -683,6 +684,7 @@ basetypes.power = [
 	{pc:"master",text:BS(["to create golems made of",{search:"substance"}])},
 	{pc:"master",text:BS(["to project",{search:"thingy",saveas:"thingy",property:"article",checkfor:"yes",forcea_an:"an"},"indestructible animate",{search:"thingytrait",property:"text"},{saved:"thingy",property:"name"}])},
 	{pc:"mover",text:BS(["of extreme",{search:"dance"}])},
+	{pc:"mover",text:BS(["of moving at the speed of",{search:"crittertrait",property:"text"},{search:"critter",property:"name"}])},
 	{pc:"shaker",text:BS(["to conjure",{search:"worldeffect"}])},
 	{pc:"shaker",text:BS(["to create large quantities of ",{search:"substance"}])},
 	{pc:"shaker",text:"to cause ambient noise to be all wrong in the area"},
@@ -757,6 +759,7 @@ basetypes.someheroproblemlist = [
 	BS(["is being controlled by",{search:"master"}]),
 	"never existed",
 	BS(["is a Time Lord and",{saved:"hero",property:"possessive"},{saved:"hero",property:"item"},"is",{saved:"hero",property:"possessive"},"TARDIS"]),
+	"looks dumb",
 ];
 basetypes.someheroproblem = [
 	BS([{search:"somehero",saveas:"hero",property:"name"},{search:"someheroproblemlist"}]),
@@ -847,6 +850,9 @@ basetypes.writtenwork = [
 	"an urban fantasy",
 	"a poem",
 	BS(["the unofficial reveal-all biography of",{search:"hero",property:"name"}]),
+	"a web comic",
+	"a web novel",
+	"a new expansion for the Heroes and Hideouts tabletop roleplaying game",
 ];
 basetypes.food = [
 	"spaghetti",
