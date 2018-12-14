@@ -287,6 +287,7 @@ basetypes.activity = [
 		{search:"hero",saveas:"hero2",property:"name",append:",",notmatch:"hero1"}, "and",
 		{search:"hero",saveas:"hero3",property:"name",notmatch:["hero1","hero2"]}]),
 	"screaming loud enough to wake the dead",
+	"wiggling furiously",
 ];
 basetypes.clothing = [
 	"a top-hat",
